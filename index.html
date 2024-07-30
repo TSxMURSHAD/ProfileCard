@@ -1,0 +1,55 @@
+<!-- Create a profile card with fix width and height along with max height using an external CSS file. The card should
+include a container and a profile picture and container consist of a info section for the name and title, a short bio,
+contact information (email and phone number), and social media icons.
+
+Apply styles using class, id, and tag selectors. Style the card with a background gradient along with a background
+image. Set the card's width, height, min-height, and max-width. Apply padding and margin to elements within the card.
+Add a border around the card. Use different colors for text and background. Center the card on the page.
+IF YOU FACE ANY CONFUSION SEARCH IT ON INTERNET BUT DON'T USE CHATGPT FOR IT ( its benificial for you) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <div class="pic">
+                <img id="profile" src="./assets/img/Profile.jpg" alt="Profile Pic">
+            </div>
+            <div id="container">
+                <section id="info_section">
+                    <h1>Malik Hadi</h1>
+                    <h3>Web Developer</h3>
+                </section>
+                <p>Hi, I'am a passionate and dedicated <strong>BSCS</strong> student at <em><strong>Arid</strong>
+                        University Rawalpindi</em>, currently in my <em>4th semester</em> with a CGPA of
+                    <strong>3.73</strong>. I have a strong foundation in programming with skills in C++, Python,
+                    HTML, CSS, JavaScript, AI, and Machine Learning.
+                </p>
+                <p>
+                    <span class="contact_info"><img class="contact" src="./assets/img/envelope-solid.svg"
+                            alt="email">malikhadizulfiqar@gmail.com</span><br><span class="contact_info"><img
+                            class="contact" src="./assets/img/phone-solid.svg" alt="phone">0315-5878228</span>
+                </p>
+                <div id="social_icons">
+                    <a href="https://www.instagram.com/malikhadi.4/"><img class="icon"
+                            src="./assets/img/instagram-brands-solid.svg" alt="insta"></a>
+                    <a href="https://www.facebook.com/hadi.malikhadi.1"><img class="icon"
+                            src="./assets/img/facebook-brands-solid.svg" alt="facebook"></a>
+                    <a href="https://www.tiktok.com/@malikhadi456?lang=en"><img class="icon"
+                            src="./assets/img/tiktok-brands-solid.svg" alt="tiktok"></a>
+                    <a href="https://github.com/TSxMURSHAD"><img class="icon" src="./assets/img/github-brands-solid.svg"
+                            alt="github"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
